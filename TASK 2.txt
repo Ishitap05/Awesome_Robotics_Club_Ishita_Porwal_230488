@@ -1,0 +1,216 @@
+hp@DESKTOP-4DT55VU ~
+$  ssh bandit0@bandit.labs.overthewire.org -p2220
+                         _                     _ _ _
+                        | |__   __ _ _ __   __| (_) |_
+                        | '_ \ / _` | '_ \ / _` | | __|
+                        | |_) | (_| | | | | (_| | | |_
+                        |_.__/ \__,_|_| |_|\__,_|_|\__|
+  This is an OverTheWire game server.
+            More information on http://www.overthewire.org/wargames
+
+bandit0@bandit.labs.overthewire.org's password:
+
+      ,----..            ,----,          .---.
+     /   /   \         ,/   .`|         /. ./|
+    /   .     :      ,`   .'  :     .--'.  ' ;
+   .   /   ;.  \   ;    ;     /    /__./ \ : |
+  .   ;   /  ` ; .'___,/    ,' .--'.  '   \' .
+  ;   |  ; \ ; | |    :     | /___/ \ |    ' '
+  |   :  | ; | ' ;    |.';  ; ;   \  \;      :
+  .   |  ' ' ' : `----'  |  |  \   ;  `      |
+  '   ;  \; /  |     '   :  ;   .   \    .\  ;
+   \   \  ',  /      |   |  '    \   \   ' \ |
+    ;   :    /       '   :  |     :   '  |--"
+     \   \ .'        ;   |.'       \   \ ;
+  www. `---` ver     '---' he       '---" ire.org
+
+
+Welcome to OverTheWire!
+
+If you find any problems, please report them to the #wargames channel on
+discord or IRC.
+
+bandit0@bandit:~$ ls -alps
+total 24
+4 drwxr-xr-x  2 root    root    4096 Oct  5  2023 ./
+4 drwxr-xr-x 70 root    root    4096 Oct  5  2023 ../
+4 -rw-r--r--  1 root    root     220 Jan  6  2022 .bash_logout
+4 -rw-r--r--  1 root    root    3771 Jan  6  2022 .bashrc
+4 -rw-r--r--  1 root    root     807 Jan  6  2022 .profile
+4 -rw-r-----  1 bandit1 bandit0   33 Oct  5  2023 readme
+bandit0@bandit:~$ cat readme
+NH2SXQwcBdpmTEzi3bvBHMM9H66vVXjL
+bandit0@bandit:~$ exit
+logout
+Connection to bandit.labs.overthewire.org closed.
+
+hp@DESKTOP-4DT55VU ~
+$  ssh bandit1@bandit.labs.overthewire.org -p2220
+
+
+                      This is an OverTheWire game server.
+            More information on http://www.overthewire.org/wargames
+
+bandit1@bandit.labs.overthewire.org's password:
+
+  
+Welcome to OverTheWire!
+
+If you find any problems, please report them to the #wargames channel on
+discord or IRC.
+
+  Enjoy your stay!
+
+bandit1@bandit:~$ ls -alps
+total 24
+4 -rw-r-----  1 bandit2 bandit1   33 Oct  5  2023 -
+4 drwxr-xr-x  2 root    root    4096 Oct  5  2023 ./
+4 drwxr-xr-x 70 root    root    4096 Oct  5  2023 ../
+4 -rw-r--r--  1 root    root     220 Jan  6  2022 .bash_logout
+4 -rw-r--r--  1 root    root    3771 Jan  6  2022 .bashrc
+4 -rw-r--r--  1 root    root     807 Jan  6  2022 .profile
+bandit1@bandit:~$ cat ./-
+rRGizSaX8Mk1RTb1CNQoXTcYZWU6lgzi
+bandit1@bandit:~$ exit
+logout
+Connection to bandit.labs.overthewire.org closed.
+
+
+
+
+hp@DESKTOP-4DT55VU ~
+$ ssh bandit2@bandit.labs.overthewire.org -p2220
+                   This is an OverTheWire game server.
+            More information on http://www.overthewire.org/wargames
+
+bandit2@bandit.labs.overthewire.org's password:
+
+Welcome to OverTheWire!
+
+If you find any problems, please report them to the #wargames channel on
+discord or IRC.
+
+
+bandit2@bandit:~$ ls -alps
+total 24
+4 drwxr-xr-x  2 root    root    4096 Oct  5  2023 ./
+4 drwxr-xr-x 70 root    root    4096 Oct  5  2023 ../
+4 -rw-r--r--  1 root    root     220 Jan  6  2022 .bash_logout
+4 -rw-r--r--  1 root    root    3771 Jan  6  2022 .bashrc
+4 -rw-r--r--  1 root    root     807 Jan  6  2022 .profile
+4 -rw-r-----  1 bandit3 bandit2   33 Oct  5  2023 spaces in this filename
+bandit2@bandit:~$ cat spaces\ in\ this\ filename
+aBZ0W5EmUfAf7kHTQeOwd8bauFJ2lAiG
+bandit2@bandit:~$ exit
+logout
+Connection to bandit.labs.overthewire.org closed.
+
+hp@DESKTOP-4DT55VU ~
+$ ssh bandit3@bandit.labs.overthewire.org -p2220
+         
+                      This is an OverTheWire game server.
+            More information on http://www.overthewire.org/wargames
+bandit3@bandit.labs.overthewire.org's password:
+Welcome to OverTheWire!
+
+  Enjoy your stay!
+
+bandit3@bandit:~$
+bandit3@bandit:~$ ls -alps
+total 24
+4 drwxr-xr-x  3 root root 4096 Oct  5  2023 ./
+4 drwxr-xr-x 70 root root 4096 Oct  5  2023 ../
+4 -rw-r--r--  1 root root  220 Jan  6  2022 .bash_logout
+4 -rw-r--r--  1 root root 3771 Jan  6  2022 .bashrc
+4 drwxr-xr-x  2 root root 4096 Oct  5  2023 inhere/
+4 -rw-r--r--  1 root root  807 Jan  6  2022 .profile
+bandit3@bandit:~$ cd inhere/
+bandit3@bandit:~/inhere$ ls -al
+total 12
+drwxr-xr-x 2 root    root    4096 Oct  5  2023 .
+drwxr-xr-x 3 root    root    4096 Oct  5  2023 ..
+-rw-r----- 1 bandit4 bandit3   33 Oct  5  2023 .hidden
+bandit3@bandit:~/inhere$ cat .hidden
+2EW7BBsr6aMMoJ2HjW067dm8EgX26xNe
+bandit3@bandit:~/inhere$ exit
+logout
+Connection to bandit.labs.overthewire.org closed.
+
+hp@DESKTOP-4DT55VU ~
+$ ssh bandit4@bandit.labs.overthewire.org -p2220
+                                           This is an OverTheWire game server.
+            More information on http://www.overthewire.org/wargames
+
+bandit4@bandit.labs.overthewire.org's password:
+Welcome to OverTheWire!
+
+If you find any problems, please report them to the #wargames channel on
+discord or IRC.
+bandit4@bandit:~$
+bandit4@bandit:~$ ls -alps
+total 24
+4 drwxr-xr-x  3 root root 4096 Oct  5  2023 ./
+4 drwxr-xr-x 70 root root 4096 Oct  5  2023 ../
+4 -rw-r--r--  1 root root  220 Jan  6  2022 .bash_logout
+4 -rw-r--r--  1 root root 3771 Jan  6  2022 .bashrc
+4 drwxr-xr-x  2 root root 4096 Oct  5  2023 inhere/
+4 -rw-r--r--  1 root root  807 Jan  6  2022 .profile
+bandit4@bandit:~$ cd inhere/
+bandit4@bandit:~/inhere$ ls -al
+total 48
+drwxr-xr-x 2 root    root    4096 Oct  5  2023 .
+drwxr-xr-x 3 root    root    4096 Oct  5  2023 ..
+-rw-r----- 1 bandit5 bandit4   33 Oct  5  2023 -file00
+-rw-r----- 1 bandit5 bandit4   33 Oct  5  2023 -file01
+-rw-r----- 1 bandit5 bandit4   33 Oct  5  2023 -file02
+-rw-r----- 1 bandit5 bandit4   33 Oct  5  2023 -file03
+-rw-r----- 1 bandit5 bandit4   33 Oct  5  2023 -file04
+-rw-r----- 1 bandit5 bandit4   33 Oct  5  2023 -file05
+-rw-r----- 1 bandit5 bandit4   33 Oct  5  2023 -file06
+-rw-r----- 1 bandit5 bandit4   33 Oct  5  2023 -file07
+-rw-r----- 1 bandit5 bandit4   33 Oct  5  2023 -file08
+-rw-r----- 1 bandit5 bandit4   33 Oct  5  2023 -file09
+bandit4@bandit:~/inhere$ ls
+-file00  -file01  -file02  -file03  -file04  -file05  -file06  -file07  -file08  -file09
+bandit4@bandit:~/inhere$ find . -type f |xargs file
+./-file01: data
+./-file02: data
+./-file08: data
+./-file06: data
+./-file00: data
+./-file04: data
+./-file05: data
+./-file07: ASCII text
+./-file03: data
+./-file09: data
+bandit4@bandit:~/inhere$ man xargs
+bandit4@bandit:~/inhere$ cat ./-file07
+lrIWWI6bB37kxfiCQZqUdOIYfr6eEeqR
+bandit4@bandit:~/inhere$ exit
+logout
+Connection to bandit.labs.overthewire.org closed.
+
+hp@DESKTOP-4DT55VU ~
+$ ssh bandit5@bandit.labs.overthewire.org -p2220
+  
+                     This is an OverTheWire game server.
+            More information on http://www.overthewire.org/wargames
+
+bandit5@bandit.labs.overthewire.org's password:
+Welcome to OverTheWire!
+
+If you find any problems, please report them to the #wargames channel on
+discord or IRC.
+  Enjoy your stay!
+
+bandit5@bandit:~$
+bandit5@bandit:~$ ls
+inhere
+bandit5@bandit:~$ cd inhere/
+bandit5@bandit:~/inhere$  find . -type f -size 1033c ! -executable
+./maybehere07/.file2
+bandit5@bandit:~/inhere$ cat ./maybehere07/.file2
+P4L4vucdmLnm8I7Vl7jG1ApGSfjYKqJU
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        bandit5@bandit:~/inhere$ exit
+logout
+Connection to bandit.labs.overthewire.org closed.
